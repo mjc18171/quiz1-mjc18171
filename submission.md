@@ -109,8 +109,8 @@
    1. s: socket                                                        <!-- answer -->
 
 1. Describe each of the following:
-  - process:                                                      <!-- answer -->
-  - environment:                                                  <!-- answer -->
-  - stdin:                                                        <!-- answer -->
-  - $?:                                                           <!-- answer -->
+  - process: a running program                                                      <!-- answer -->
+  - environment: variables that are set either by you or are already defiend                                                <!-- answer -->
+  - stdin: standard input stream,                                                     <!-- answer -->
+  - $?: variable that stores the exit status of a command                                                          <!-- answer -->
  
