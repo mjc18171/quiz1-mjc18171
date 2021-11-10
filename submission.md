@@ -8,7 +8,7 @@
 
 
 ---
-## Name:                                  <!-- answer -->
+## Name: Martin Clemente  <!-- answer -->
 
 
 1. A URL is comprised of a number of components.  Consider the following URL:
@@ -16,34 +16,49 @@
   ``one://two:three@four.five.size:seven/eight/nine/ten?eleven=twelve&thirteen=fourteen#fifteen``
 
   * Provide both the name and value of each component.
-    1. scheme: "one"                                    <!-- answer -->
-    1.                                                  <!-- answer -->
-    1.                                                  <!-- answer -->
+    1. scheme:                        'one://'                            <!-- answer -->
+    2. username:                      'two:three@'                        <!-- answer -->
+    3. subdomain:                     'four'                              <!-- answer -->
+    3. domain:                        'five'                              <!-- answer -->
+    4. top level domain:              'size'                              <!-- answer -->
+    5. port number:                   'seven'                             <!-- answer -->
+    6. path:                          '/eight/nine/ten'                   <!-- answer -->
+    7. query string seperator:        '?'                                 <!-- answer -->
+    8. query string:                  '?eleven=twelve&thirteen=fourteen'  <!-- answer -->
+    9. fragment:                      '#fifteen'                          <!-- answer -->
     <!-- Add more lines as needed -->
 
 1. In the following code block, provide the git instructions necessary to add a new file to the remote repository: git@github.com:org/project.git (You should presume that you don't have a copy of this repository on your local computer.)
    ```
-                                                        <!-- answer -->
+    $cd /home #example of where you want the repo to be at
+    $git clone git@github.com:org/project.git  
+    $cp /(source)/newfile /home/project/newfile
+    $git status
+    $git add (newfile)       
+    $git status
+    $git commit -m "some message"
+    $git status
+    $git push                                         <!-- answer -->
    ```
    <!-- You many add any number of lines in the above code block that you need. -->
 
 1. Provide the Apache Directive used to perform the requested action
    1. Position the location of root location of the website at:  /var/www/html
-     *                                                  <!-- answer -->
+     * DocumentRoot /var/www/html                                          <!-- answer -->
    1. To disable the user "steve" from having a web presence on your server.
-     *                                                  <!-- answer -->
-   1. To create an alias between the URI: /marketing and the file: /user/marketing/www
-     *                                                  <!-- answer -->
+     * UserDir disabled steve                                                <!-- answer -->
+   1. To create an alias between the URI: /marketing lsand the file: /user/marketing/www
+     * Alias "/marketing" "/user/marketing/www"                                                 <!-- answer -->
    1. To define the location of the error log to be: /var/log/apps/apache/error.log
-     *                                                  <!-- answer -->
+     *  ErrorLog "/var/log/apps/apache/error.log"                                                <!-- answer -->
 
 
 1. What is the command used to create the user "steve" within your apache container?
-    *                                                  <!-- answer -->
+    * sudo useradd -m steve                                                 <!-- answer -->
 
 
 1. What does the "AllowOverride" Directive do?
-    *                                                  <!-- answer -->
+    *  It basically allows the use of a .htaccess file and overrides the global apache configuration.                                                <!-- answer -->
 
 
 1. Given the following command, provide the corresponding HTTP Request Header:
