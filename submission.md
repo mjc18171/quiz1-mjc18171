@@ -17,15 +17,18 @@
 
   * Provide both the name and value of each component.
     1. scheme:                        'one://'                            <!-- answer -->
-    2. username:                      'two:three@'                        <!-- answer -->
-    3. subdomain:                     'four'                              <!-- answer -->
-    3. domain:                        'five'                              <!-- answer -->
-    4. top level domain:              'size'                              <!-- answer -->
-    5. port number:                   'seven'                             <!-- answer -->
-    6. path:                          '/eight/nine/ten'                   <!-- answer -->
-    7. query string seperator:        '?'                                 <!-- answer -->
-    8. query string:                  '?eleven=twelve&thirteen=fourteen'  <!-- answer -->
-    9. fragment:                      '#fifteen'                          <!-- answer -->
+    1. authority:                     'two'                               <!-- answer -->
+    1. separator:                     ':'                                 <!-- answer -->
+    1. password:                      'three'                             <!-- answer -->
+    1. separator:                     '@'                                 <!-- answer -->
+    1. subdomain:                     'four'                              <!-- answer -->
+    1. domain:                        'five'                              <!-- answer -->
+    1. top level domain:              'size'                              <!-- answer -->
+    1. port number:                   'seven'                             <!-- answer -->
+    1. path:                          '/eight/nine/ten'                   <!-- answer -->
+    1. query string seperator:        '?'                                 <!-- answer -->
+    1. query string:                  '?eleven=twelve&thirteen=fourteen'  <!-- answer -->
+    1. fragment:                      '#fifteen'                          <!-- answer -->
     <!-- Add more lines as needed -->
 
 1. In the following code block, provide the git instructions necessary to add a new file to the remote repository: git@github.com:org/project.git (You should presume that you don't have a copy of this repository on your local computer.)
@@ -64,7 +67,16 @@
 1. Given the following command, provide the corresponding HTTP Request Header:
     * curl  https://www.csun.edu/~steve/roster/input/value/input/value
     ```
-                                                      <!-- answer -->
+    Content-Type
+    Content-Language
+    language
+    robots
+    version
+    author
+    company
+    copyright
+    cache-control
+    expires                                                 <!-- answer -->
     ```                                                      
     <!-- You many add any number of lines in the above code block that you need. -->
 
@@ -89,12 +101,12 @@
 
 1. There are a number of different types of files.  Each of these file types can be identified by a single character in the output of the command ``ls -l``.  What are these types of files:
    1. -: a regular file
-   1. p:                                                          <!-- answer -->
-   1. l:                                                          <!-- answer -->
-   1. d:                                                          <!-- answer -->
-   1. b:                                                          <!-- answer -->
-   1. c:                                                          <!-- answer -->
-   1. s:                                                          <!-- answer -->
+   1. p: FIFO                                                         <!-- answer -->
+   1. l: Symbolic link                                                         <!-- answer -->
+   1. d: directory                                                         <!-- answer -->
+   1. b: block                                                         <!-- answer -->
+   1. c: character                                                         <!-- answer -->
+   1. s: socket                                                        <!-- answer -->
 
 1. Describe each of the following:
   - process:                                                      <!-- answer -->
