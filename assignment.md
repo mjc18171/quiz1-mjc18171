@@ -8,7 +8,7 @@
 
 
 ---
-## Name:                                  <!-- answer -->
+## Name: Martin Clemente  <!-- answer -->
 
 
 1. A URL is comprised of a number of components.  Consider the following URL:
@@ -16,18 +16,33 @@
   ``one://two:three@four.five.size:seven/eight/nine/ten?eleven=twelve&thirteen=fourteen#fifteen``
 
   * Provide both the name and value of each component.
-    1. scheme: "one"                                    <!-- answer -->
-    1.                                                  <!-- answer -->
-    1.                                                  <!-- answer -->
+    1. scheme:                        'one://'                            <!-- answer -->
+    2. username:                      'two:three@'                        <!-- answer -->
+    3. subdomain:                     'four'                              <!-- answer -->
+    3. domain:                        'five'                              <!-- answer -->
+    4. top level domain:              'size'                              <!-- answer -->
+    5. port number:                   'seven'                             <!-- answer -->
+    6. path:                          '/eight/nine/ten'                   <!-- answer -->
+    7. query string seperator:        '?'                                 <!-- answer -->
+    8. query string:                  '?eleven=twelve&thirteen=fourteen'  <!-- answer -->
+    9. fragment:                      '#fifteen'                          <!-- answer -->
     <!-- Add more lines as needed -->
 
-1. In the following code block, provide the git instructions necessary to add a new file to the remote repository: git@github.com:org/project.git (You should presume that you don't have a copy of this repository on your local computer.)
+2. In the following code block, provide the git instructions necessary to add a new file to the remote repository: git@github.com:org/project.git (You should presume that you don't have a copy of this repository on your local computer.)
    ```
-                                                        <!-- answer -->
+    $cd /home #example of where you want the repo to be at
+    $git clone git@github.com:org/project.git  
+    $cp /(source)/newfile /home/project/newfile
+    $git status
+    $git add (newfile)       
+    $git status
+    $git commit -m "some message"
+    $git status
+    $git push                                         <!-- answer -->
    ```
    <!-- You many add any number of lines in the above code block that you need. -->
 
-1. Provide the Apache Directive used to perform the requested action
+3. Provide the Apache Directive used to perform the requested action
    1. Position the location of root location of the website at:  /var/www/html
      *                                                  <!-- answer -->
    1. To disable the user "steve" from having a web presence on your server.
