@@ -94,10 +94,10 @@
     * regexp: ``"^marketing/([a-z]*.[a-z]*)/(code=[0-9]{4,6})/(.*)$"``
 
     Define the value of each of the following back references
-    1. $1:                                                           <!-- answer -->
-    1. $2:                                                           <!-- answer -->
-    1. $3:                                                           <!-- answer -->
-    1. $4:                                                           <!-- answer -->
+    1. $1: http://www.fake.org/marking                                                           <!-- answer -->
+    1. $2: /john.smith                                                      <!-- answer -->
+    1. $3: /code=10325                                                          <!-- answer -->
+    1. $4: /app/input                                                          <!-- answer -->
 
 1. There are a number of different types of files.  Each of these file types can be identified by a single character in the output of the command ``ls -l``.  What are these types of files:
    1. -: a regular file
